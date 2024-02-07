@@ -1,0 +1,44 @@
+.nav-style{
+    padding: 10px;
+    text-align: left;
+    background-color: white;
+}
+
+a:hover{
+    background-color: var(--color-background-color);
+    color: var(--color-background-button);
+}
+
+ul .nav-style{
+    text-align: center;
+}
+.nav{
+    text-decoration: none;
+    color: var(--color-white);
+    background-color: var(--color-background-button);
+    padding: 6px 12px;
+    border-radius: 8px;
+}
+
+.title{
+    color: var(--color-background-button);
+    margin-top: 30px;
+}
+
+.container-body{
+    max-width: 1200px;
+    margin: 30px auto;
+    background-color: var(--color-white);
+    border-radius: 12px;
+    padding: 30px;
+}
+
+h2{
+    background-color: var(--color-white);
+    color: var(--color-background-button);
+    margin-bottom: 20px;
+}
+
+.p-cont{
+    background-color: var(--color-white);
+}

@@ -1,0 +1,44 @@
+/* general reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--color-background-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+	--color-background-color: #d3d3d3;
+    --color-background-button: #3535E3;
+    --color-white: #ffffff
+}
+
+nav{
+    display: inline;
+    text-align: center;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.inline{
+    display: inline;
+}
+
+.float-right{
+    float: right;
+}
+
+.float-left{
+    float: left;
+}
+
+.container{
+    text-align: center;
+}
+
+.txt-center{
+    text-align: center;
+    padding: 15px 15px;
+}
